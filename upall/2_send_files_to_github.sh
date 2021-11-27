@@ -8,6 +8,8 @@ cd ../
 # # It will print the output of the command "date"
 output=$(date)
 
+# Checking for any online updates first to synchronize the changes locally!
+git pull
 
 # Below command will backup everything inside the project folder
 git add . 
